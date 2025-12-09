@@ -2,7 +2,7 @@
 
 A robust Face Detection and Recognition application built with Java, utilizing the power of **JavaCV** (a Java interface to OpenCV). This system supports real-time face detection, data collection, model training, and face recognition using various algorithms like Haar Cascades, LBPH, Eigenfaces, and Fisherfaces.
 
-## 🚀 Features
+##  Features
 
 *   **Real-time Face Detection**: Detects faces in live video streams using Haar Cascade Classifiers.
 *   **Dataset Creation**: Capture and save face images from the webcam to build a custom dataset.
@@ -10,7 +10,7 @@ A robust Face Detection and Recognition application built with Java, utilizing t
 *   **Real-time Recognition**: Identify and label known faces in real-time with confidence scores.
 *   **Swing UI**: User-friendly Graphical User Interface for easy operation.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 *   **Java**: Core programming language.
 *   **JavaCV**: Java wrapper for OpenCV.
@@ -18,13 +18,13 @@ A robust Face Detection and Recognition application built with Java, utilizing t
 *   **Maven**: Dependency management and build tool.
 *   **Swing**: Java GUI toolkit.
 
-## 📋 Prerequisites
+##  Prerequisites
 
 *   **Java Development Kit (JDK)**: Version 8 or higher.
 *   **Maven**: For building the project and managing dependencies.
 *   **Webcam**: Required for capturing images and real-time recognition.
 
-## ⚙️ Installation
+##  Installation
 
 1.  **Clone the repository:**
     ```bash
@@ -39,7 +39,7 @@ A robust Face Detection and Recognition application built with Java, utilizing t
     ```
     *Note: This will download the necessary OpenCV binaries for your platform.*
 
-## ▶️ Usage
+##  Usage
 
 1.  **Run the Application:**
     You can run the application using Maven:
@@ -52,7 +52,7 @@ A robust Face Detection and Recognition application built with Java, utilizing t
     *   **Train Dataset**: After capturing faces, click this to train the recognition model (LBPH) on the collected images.
     *   **Recognize Faces**: Starts the camera and attempts to recognize faces based on the trained model.
 
-## 📂 Project Structure
+##  Project Structure
 
 *   `src/main/java`: Source code for the application.
     *   `App.java`: Main entry point and GUI.
@@ -64,6 +64,6 @@ A robust Face Detection and Recognition application built with Java, utilizing t
     *   `photos/`: Directory where captured face images are stored.
     *   `namedata.csv`: Stores the mapping between IDs and Names.
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
